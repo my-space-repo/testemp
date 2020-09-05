@@ -22,6 +22,6 @@ export class HttpClientService {
 
   getEmployees()
   {
-    return this.httpClient.get<Employee[]>('http://localhost:8080/employees');
+    return this.httpClient.get<Employee[]>('https://boiling-lowlands-74743.herokuapp.com/employees');
   }
 }
